@@ -10,6 +10,7 @@ from _Framework.MidiMap import make_button, make_encoder, make_slider
 from _Framework.InputControlElement import MIDI_NOTE_TYPE, MIDI_CC_TYPE
 from .SessionComponent import SessionComponent
 from .TransportComponent import TransportComponent
+from .utils import make_encoder_relative
 
 SESSION_WIDTH = 4
 SESSION_HEIGHT = 7
@@ -57,7 +58,7 @@ class MidiMap(MidiMapBase):
                         MIDI_CC_TYPE)
 
         # Control bank "B" knobs.
-        self.add_matrix(u'EncodersB1', make_encoder, 1,
+        self.add_matrix(u'EncodersB1', make_encoder_relative, 1,
                         [[22, 23, 24, 25, 26, 27, 28, 29]],
                         MIDI_CC_TYPE)
 

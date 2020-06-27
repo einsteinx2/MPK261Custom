@@ -16,16 +16,22 @@ This is based on the LiveLite default preset. Recommend creating a copy of this 
   Momentary turns on the button while it is pressed and turns it off when it is released.
   Toggle turns the button on when pressed, then turns the button off when it is pressed a second time. To edit:
     1. Click the Edit button on the MPK261
-    2. Click the correct Bank, then touch the Pad. The MPK261 display should show "Pad#" at the top.
-    3. Click the right arrow 2 times to go to Pg3. The MPK261 display should show "Node Mode"
-    4. Turn the knob to select "Toggle"
-    5. Repeat for all the pads on banks B, C, and D. Touch the pad
-- Edit the S1-S8 buttons for Control banks B & C to use Toggle instead of Momentary.
+    2. Click the correct bank (to the left of the Pads), then touch the Pad. The MPK261 display should show "Pad#" at the top.
+    3. Click the right arrow 2 times to go to Pg3. The MPK261 display should show "Node Mode".
+    4. Turn the knob above the arrow buttons to select "Toggle".
+    5. Repeat for all the pads on banks B, C, and D. Touch the pad.
+- Edit the S1-S8 buttons for Control Banks B & C to use Toggle instead of Momentary.
     1. Click the Edit button on the MPK261
-    2. Click the correct Bank, then touch the S button (example: S1). The MPK261 display should show "Switch#" at the top.  Bank 2 switch 1 = Switch09, etc.
+    2. Click the correct control bank (under the Stop and Play buttons), then touch the S button (example: S1). The MPK261 display should show "Switch#" at the top. Bank 2 switch 1 = Switch09, etc.
     3. Click the right arrow and down to go to Mode.
-    4. Turn the knob to select "Toggle" from "Momentary"
+    4. Turn the knob above the arrow buttons to select "Toggle" from "Momentary".
     5. Repeat for all the switch buttons in control banks B & C.
+- Edit the K1-K8 knobs for Control Bank B to use Relative instead of Absolute.
+    1. Click the Edit button on the MPK261
+    2. Click control bank B (under the Stop and Play buttons), then turn the K knob (example: K1). The MPK261 display should show "Knob#" at the top. Bank 2 knob 1 = Knob09, etc.
+    3. Turn the knob above the arrow buttons to select "INC/DEC2" from "MIDI CC".
+    4. Repeat for all of the knobs in control bank B.
+    
 
 ## Ableton Mappings
 
